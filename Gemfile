@@ -5,9 +5,9 @@ ruby '1.9.3'
 gem 'rails', '4.0.0'
 gem 'pg', '0.17.0'
 
+
 group :development, :test do
 	gem 'rspec-rails', '2.14.0'
-	gem 'rspec'
 end 
 
 group :test do
