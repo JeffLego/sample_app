@@ -22,19 +22,23 @@ h2 { font-size: 1.2em; letter-spacing: -1px; margin-bottom: 30px; text-align:cen
 p { font-size: 1.1em; line-height: 1.7em; }
 
 /* header */
-#logo {
-		float: left;
-		margin-right:10px;
-		font-size:1.7em;
-		color: #fff;
-		text-transform:uppercase;
-		letter-spacing: -1px;
-		padding-top: 9px;
-		font-weight:bold;
-		line-height: 1;
-	}
+#logo 
+		{
+			float: left;
+			margin-right:10px;
+			font-size:1.7em;
+			color: #fff;
+			text-transform:uppercase;
+			letter-spacing: -1px;
+			padding-top: 9px;
+			font-weight:bold;
+			line-height: 1;
 
-#logo:hover { color:#fff; text-decoration:none; }
+			&:hover {
+				color: #fff;
+				text-decoration:none;
+			}
+		}
 
 
 /* footer */
