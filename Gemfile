@@ -16,6 +16,7 @@ group :test do
 	gem 'capybara', '2.1.0'
 	gem 'rubyzip', '1.0.0'
 	gem 'rspec-core', '2.14.7'
+	gem 'spork'
 end
 
 gem 'sass-rails', '4.0.1'
