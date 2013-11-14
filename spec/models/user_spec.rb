@@ -14,7 +14,7 @@ describe User do
 
 	describe "when name is not present" do
 		before { @user.name = " " }
-		it { shout_not be_valid } 
+		it { should_not be_valid } 
 	end
 
 	describe "when email is not present" do
