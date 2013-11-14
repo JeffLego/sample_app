@@ -88,4 +88,9 @@ describe User do
   		it { should_no eq user_for_invalid_password }
   		specify { expect(user_for_invalid_password).to be_false }
   	end
+
+  	describe "with a password that's too short" do
+  		before { @user.password = @user.password_confirmation = "a" * 5 }
+  		it { should be_invalid }
+  	end
 end
