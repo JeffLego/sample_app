@@ -18,6 +18,7 @@ group :test do
 	gem 'rubyzip', '1.0.0'
 	gem 'rspec-core', '2.14.7'
 	gem 'spork'
+	gem 'factory_girl_rails', '4.2.1'
 end
 
 gem 'sass-rails', '4.0.1'
